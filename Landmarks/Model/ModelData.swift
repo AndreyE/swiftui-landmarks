@@ -5,7 +5,7 @@
 //  Created by Andrey Lizunov on 2/7/21.
 //
 
-iimport Foundation
+import Foundation
 
 var landmarks: [Landmark] = load("landmarkData.json")
 
