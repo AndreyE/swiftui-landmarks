@@ -168,14 +168,30 @@
 		55C1906225D0078500872F89 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				55C1902425CFEB5900872F89 /* CircleImage.swift */,
 				55C18FF025CFDCA800872F89 /* ContentView.swift */,
-				55C1902925CFEEF000872F89 /* MapView.swift */,
+				55D465D825D2703C003542A8 /* Helpers */,
+				55D465D425D27022003542A8 /* Landmarks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55D465D425D27022003542A8 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
 				55D465B725D0EFAD003542A8 /* LandmarkRow.swift */,
 				55D465BC25D0F3B9003542A8 /* LandmarkList.swift */,
 				55D465C125D0F8E1003542A8 /* LandmarkDetail.swift */,
 			);
-			path = Views;
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		55D465D825D2703C003542A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				55C1902425CFEB5900872F89 /* CircleImage.swift */,
+				55C1902925CFEEF000872F89 /* MapView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
