@@ -148,6 +148,13 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		556D136425F0BDBD0050DD4C /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		556D4DAE25D604E200DC42C3 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				55C18FF025CFDCA800872F89 /* ContentView.swift */,
+				556D136425F0BDBD0050DD4C /* PageView */,
 				556D134625ECB6790050DD4C /* Profiles */,
 				556D132525EBD3D70050DD4C /* Categories */,
 				55EB535025D66D64008DDDA9 /* Hikes */,
