@@ -9,9 +9,15 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var pages: [Page]
+    @State private var currentPage = 0
 
     var body: some View {
-        PageViewController(pages: pages)
+        VStack() {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            Button("Current page \(currentPage)") {
+                currentPage = currentPage + 1 < pages.count ? currentPage + 1 : 0
+            }
+        }
     }
 }
 
