@@ -15,15 +15,9 @@ struct CategoriesHome: View {
         NavigationView {
             List {
                 if(!modelData.features.isEmpty) {
-                    let landmark = modelData.features[0]
-                    NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
-                        landmark.image
-                            .resizable()
-                            .scaledToFill()
-                            .frame(height: 200)
-                            .clipped()
-                    }
-                    .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
+                    PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                        .aspectRatio(3 / 2, contentMode: .fit)
+                        .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in

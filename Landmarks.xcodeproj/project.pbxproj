@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551DE47926032B52003DD361 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551DE47826032B52003DD361 /* PageControl.swift */; };
 		556D132725EBD5000050DD4C /* CategoriesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D132625EBD5000050DD4C /* CategoriesHome.swift */; };
 		556D133825EBD9720050DD4C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D133725EBD9720050DD4C /* CategoryRow.swift */; };
 		556D133D25EBDB450050DD4C /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D133C25EBDB450050DD4C /* CategoryItem.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551DE47826032B52003DD361 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		556D132625EBD5000050DD4C /* CategoriesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHome.swift; sourceTree = "<group>"; };
 		556D133725EBD9720050DD4C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		556D133C25EBDB450050DD4C /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				556D136825FF37CC0050DD4C /* PageViewController.swift */,
 				556D136D25FF3B9B0050DD4C /* FeatureCard.swift */,
 				556D137225FF3D650050DD4C /* PageView.swift */,
+				551DE47826032B52003DD361 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				55EB535525D66D64008DDDA9 /* GraphCapsule.swift in Sources */,
 				55C18FEF25CFDCA800872F89 /* LandmarksApp.swift in Sources */,
 				55D465D025D26829003542A8 /* FavoriteButton.swift in Sources */,
+				551DE47926032B52003DD361 /* PageControl.swift in Sources */,
 				55EB535725D66D64008DDDA9 /* HikeDetail.swift in Sources */,
 				556D133D25EBDB450050DD4C /* CategoryItem.swift in Sources */,
 				556D4D7E25D500E400DC42C3 /* HexagonParameters.swift in Sources */,
